@@ -9,6 +9,12 @@ The program runs a discrete event simulation of customers arriving and being ser
 
 At the end of the simulation, analysis is performed and outputted including total simulation time, average customer wait time, and maximum queue length.
 
+## Data File
+
+The input to the program is a file of arrival and service times. The first line in the file denotes the number of tellers to be used (in the multi-teller simulation).
+
+**TODO:** The original data files for the program (except for one "stress-test" file `big`) were lost. Instead, a companion program which simulates data using techniques from [Queueing Theory](https://en.wikipedia.org/wiki/Queueing_theory) should be developed. Then simulation results can be compared with theoretical ones.
+
 ## Usage
 
 Set the working directory to the root folder.
