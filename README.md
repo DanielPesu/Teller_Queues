@@ -1,5 +1,5 @@
 # Teller_Queues
-A repository showcasing a program written to simulate a single- and multi-queue system. All algorithms and data structures used were implemented 'by-hand' and involve the use of templated classes.
+A repository showcasing a program written to simulate a single- and multi-queue system. Formally, this program simulates an M/D/1 and M/D/k queue, where k is selected by the user. All algorithms and data structures used were implemented 'by-hand' and involve the use of templated classes.
 
 ## About
 
