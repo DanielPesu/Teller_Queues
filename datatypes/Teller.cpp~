@@ -1,0 +1,29 @@
+
+#ifndef _TELLER_H_
+#define _TELLER_H_
+#include "../../datastructures/queue.h"
+
+namespace datatypes
+{
+  /*****************************************************************************
+    Teller Class.                                                              *
+    This class holds all relevant data for describing a Teller.                *
+    If a teller is serving a customer, then the time the teller will finish    *
+    serving the customer is stored.                                            *
+  *****************************************************************************/
+  class Teller {
+   public:
+    Teller(bool idle = true) : idle_(idle) {}
+
+    bool isIdle() { return idle_; }
+    double serveNext(datastructure::Queue<Customer> customer_queue, double time_stamp);  //TODO: set to take next customer from queue.
+
+   private:
+    bool idle_;         // True if the teller is not currently serving a customer.
+    double idle_time_;  // Holds the time the teller has spent idle.
+  };
+
+  double Teller::serve
+}
+
+#endif  // _Teller_H_
